@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-    puts("Programming is like building a multilingual puzzle"); /* إضافة فاصلة */
+    puts("Programming is like building a multilingual puzzle"); // بدون فاصلة
     return (0);
 }
