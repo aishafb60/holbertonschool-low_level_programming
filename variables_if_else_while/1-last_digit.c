@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>  /* Include stdio.h for printf */
+#include <stdio.h>
 
 /**
  * main - Determines if a number is positive, negative, or zero.
@@ -18,13 +18,7 @@ int main(void)
 	last_digit = n % 10;  /* Get the last digit of n */
 
 	/* Print the result */
-	if (last_digit < 0)
-	{
-		last_digit = -last_digit;  /* Make it positive for comparison */
-	}
-
-	printf("Last digit of %d is %d and is ", n, 
-		(n < 0) ? -last_digit : last_digit);
+	printf("Last digit of %d is %d and is ", n, last_digit);
 
 	if (last_digit > 5)
 	{
